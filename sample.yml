@@ -1,0 +1,6 @@
+docs:
+scripts:
+build:
+  - arm
+  - x86
+tests:

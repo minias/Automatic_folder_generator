@@ -1,0 +1,68 @@
+cmd:
+  - evm
+  - geth
+  - p2p
+  - utils
+    - abidump
+    - rlpdump
+    - abigen
+    - clef
+    - ethkey
+entity:
+  - core
+  - web3
+  - console
+  - admin
+  - monitor
+  - sync
+infrastructure:
+  - aws
+    - secretsmanager
+    - s3
+    - dynamodb
+    - rds
+    - cloudwatch
+    - sqs
+  - docker
+service:
+  - consensus
+  - execute
+package:
+  - consensus
+    - POA
+    - SPOA
+    - POS
+    - DPOS
+  - execute
+    - geth
+  - validator
+  - signer
+  - storogy
+  - network
+    - bootnode    
+    - node
+      - libp2p
+    - rpc
+      - eip4844
+      - eip155
+      - eip1559
+    - ipc
+  - wallets
+    - HDwallet
+    - Slip44
+    - bip32
+    - sss
+  - zksync2
+  - contract
+commons:
+  - error
+  - params
+  - type
+  - utils
+domain:
+controller:
+tests:
+log:
+releases:
+  - changelog
+scripts:

@@ -1,0 +1,26 @@
+<xml version="1.0" encoding="UTF-8" standalone="yes">
+    <dirs>
+        <dir name="cmd" permission="755">
+            <dir name="evm" permission="755"/>
+            <dir name="geth" permission="755"/>
+            <dir name="p2p"  permission="755"/>
+            <dir name="utils"  permission="755">
+                <dir name="abidump"  permission="755"/>
+                <dir name="rlpdump"  permission="755"/>
+                <dir name="abigen"  permission="755"/>
+                <dir name="clef"  permission="755"/>
+            </dir>
+        </dir>        
+        <dir name="entity"  permission="755"/>
+        <dir name="infrastructure"  permission="755"/>
+        <dir name="service"  permission="755"/>
+        <dir name="package"  permission="755"/>
+        <dir name="commons"  permission="755"/>
+        <dir name="domains"  permission="755"/>
+        <dir name="controller"  permission="755"/>
+        <dir name="tests"  permission="755"/>
+        <dir name="log"  permission="755"/>
+        <dir name="releases"  permission="755"/>
+        <dir name="scripts"  permission="755"/>
+    </dirs>
+</xml>
